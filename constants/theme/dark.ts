@@ -1,36 +1,34 @@
-import { Theme } from "@ant-design/react-native/lib/style";
-
-const darkTheme: Partial<Theme> = {
+const darkTheme = {
   // General
-  brand_primary: "#1890ff",
-  brand_primary_tap: "#40a9ff",
-  brand_success: "#52c41a",
-  brand_warning: "#faad14",
-  brand_error: "#f5222d",
-  brand_important: "#ff4d4f",
-  brand_wait: "#108ee9",
+  brand_primary: "#40a9ff",
+  brand_primary_tap: "#1890ff",
+  brand_success: "#73d13d",
+  brand_warning: "#fadb14",
+  brand_error: "#ff4d4f",
+  brand_important: "#ff7875",
+  brand_wait: "#40a9ff",
 
   // Text
-  color_text_base: "#000000",
-  color_text_base_inverse: "#ffffff",
-  color_text_secondary: "#888888",
-  color_text_placeholder: "#bbbbbb",
-  color_text_disabled: "#cccccc",
-  color_text_caption: "#999999",
-  color_text_paragraph: "#333333",
-  color_link: "#1890ff",
+  color_text_base: "#ffffff",
+  color_text_base_inverse: "#000000",
+  color_text_secondary: "#bfbfbf",
+  color_text_placeholder: "#8c8c8c",
+  color_text_disabled: "#595959",
+  color_text_caption: "#bfbfbf",
+  color_text_paragraph: "#ffffff",
+  color_link: "#40a9ff",
 
   // Background
-  fill_base: "#ffffff",
-  fill_body: "#f5f5f9",
-  fill_tap: "#dddddd",
-  fill_disabled: "#dddddd",
-  fill_mask: "rgba(0, 0, 0, 0.4)",
-  color_icon_base: "#cccccc",
-  fill_grey: "#f7f7f7",
+  fill_base: "#141414",
+  fill_body: "#1f1f1f",
+  fill_tap: "#595959",
+  fill_disabled: "#595959",
+  fill_mask: "rgba(255, 255, 255, 0.4)",
+  color_icon_base: "#8c8c8c",
+  fill_grey: "#1f1f1f",
 
   // Border
-  border_color_base: "#dddddd",
+  border_color_base: "#595959",
 
   // Font
   font_size_icontext: 10,
@@ -69,39 +67,39 @@ const darkTheme: Partial<Theme> = {
   // Input
   input_label_width: 17,
   input_font_size: 17,
-  input_color_icon: "#cccccc",
-  input_color_icon_tap: "#108ee9",
+  input_color_icon: "#8c8c8c",
+  input_color_icon_tap: "#40a9ff",
 
   // Tabs
-  tabs_color: "#108ee9",
+  tabs_color: "#40a9ff",
   tabs_height: 42,
   tabs_font_size_heading: 15,
 
   // Segmented Control
-  segmented_control_color: "#108ee9",
+  segmented_control_color: "#40a9ff",
   segmented_control_height: 27,
-  segmented_control_fill_tap: "#dddddd",
+  segmented_control_fill_tap: "#595959",
 
   // Tab Bar
-  tab_bar_fill: "#ebeeef",
+  tab_bar_fill: "#1f1f1f",
   tab_bar_height: 50,
 
   // Toast
-  toast_fill: "rgba(0, 0, 0, 0.8)",
+  toast_fill: "rgba(255, 255, 255, 0.8)",
 
   // Search Bar
-  search_bar_fill: "#efeff4",
+  search_bar_fill: "#1f1f1f",
   search_bar_height: 44,
   search_bar_input_height: 28,
   search_bar_font_size: 15,
-  search_color_icon: "#bbbbbb",
+  search_color_icon: "#8c8c8c",
 
   // Notice Bar
-  notice_bar_fill: "#fffada",
+  notice_bar_fill: "#333333",
   notice_bar_height: 36,
 
   // Switch
-  switch_fill: "#4dd865",
+  switch_fill: "#73d13d",
 
   // Tag
   tag_height: 25,

@@ -2,7 +2,7 @@ import React from "react";
 import { useFonts } from "expo-font";
 import LogoComponent from "../svgs";
 import useGlobleStore from "@/store";
-import { Button, Toast, View } from "@ant-design/react-native";
+import { Button, View } from "react-native";
 
 const SplashScreen: React.FC<{ children: React.ReactNode }> = ({
   children,
@@ -12,7 +12,6 @@ const SplashScreen: React.FC<{ children: React.ReactNode }> = ({
   );
   const [loaded] = useFonts({
     SpaceMono: require("../../assets/fonts/SpaceMono-Regular.ttf"),
-    antoutline: require("@ant-design/icons-react-native/fonts/antoutline.ttf"),
   });
 
   React.useEffect(() => {
@@ -32,9 +31,7 @@ const SplashScreen: React.FC<{ children: React.ReactNode }> = ({
         width: "100%",
       }}
     >
-      <Button onPress={()=>updateGlobalLoading(false)} type="primary">
-        skip intro
-      </Button>
+      <Button onPress={() => updateGlobalLoading(false)} title="skip intro" />
       <LogoComponent />
     </View>
   ) : (
