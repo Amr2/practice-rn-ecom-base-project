@@ -1,0 +1,135 @@
+{
+  "categories": [
+    {
+      "slug": "beauty",
+      "label": "Beauty",
+      "products": [],
+      "image": "./assets/images/beauty-category-image.jpg"
+    },
+    {
+      "slug": "fashion",
+      "label": "Fashion",
+      "products": [],
+      "image": "./assets/images/fashion-category-image.jpg"
+    },
+    {
+      "slug": "kids",
+      "label": "Kids",
+      "products": [],
+      "image": "./assets/images/kids-category-image.jpg"
+    },
+    {
+      "slug": "mens",
+      "label": "Mens",
+      "products": [],
+      "image": "./assets/images/mens-category-image.jpg"
+    },
+    {
+      "slug": "womens",
+      "label": "Womens",
+      "products": [],
+      "image": "./assets/images/womens-category-image.jpg"
+    }
+  ],
+  "products": [
+    {
+      "slug": "womens-printed-kurta",
+      "name": "Women's Printed Kurta",
+      "image": "./assets/images/womens-kurta-image.jpg",
+      "price": 2500,
+      "discount": 50,
+      "link": "/women/kurtas/womens-printed-kurta"
+    },
+    {
+      "slug": "hrithik-roshan-sneakers",
+      "name": "HBX by Hrithik Roshan",
+      "image": "./assets/images/hrithik-sneakers-image.jpg",
+      "price": 2499,
+      "discount": 40,
+      "link": "/mens/shoes/hrithik-roshan-sneakers"
+    }
+  ],
+  "specialOffers": [
+    {
+      "slug": "offer-1",
+      "title": "50-40% OFF",
+      "description": "Now in-progress! All clothes",
+      "image": "./assets/images/offer-1-image.jpg",
+      "link": "/all-clothes"
+    },
+    {
+      "slug": "offer-2",
+      "title": "Deal of the Day",
+      "description": "22h 50m 20s remaining",
+      "image": "./assets/images/offer-2-image.jpg",
+      "link": "/deal-of-the-day"
+    }
+  ],
+  "flatAndHeels": [
+    {
+      "slug": "flat-1",
+      "name": "Flat Shoes",
+      "image": "./assets/images/flat-1-image.jpg",
+      "price": 1200,
+      "discount": 20,
+      "link": "/womens/flats/flat-1"
+    },
+    {
+      "slug": "heel-1",
+      "name": "Heel Pumps",
+      "image": "./assets/images/heel-1-image.jpg",
+      "price": 2000,
+      "discount": 30,
+      "link": "/womens/heels/heel-1"
+    }
+  ],
+  "trendingProducts": [
+    {
+      "slug": "trending-watch",
+      "name": "IWC Schaffhausen Pilot's Watch",
+      "image": "./assets/images/trending-watch-image.jpg",
+      "price": 4500,
+      "discount": 15,
+      "link": "/watches/iwc-schaffhausen-pilots-watch"
+    },
+    {
+      "slug": "trending-sneakers",
+      "name": "Labbin White Sneakers",
+      "image": "./assets/images/trending-sneakers-image.jpg",
+      "price": 3050,
+      "discount": 20,
+      "link": "/mens/sneakers/labbin-white"
+    },
+    {
+      "slug": "trending-bag",
+      "name": "Charm Handbag",
+      "image": "./assets/images/trending-bag-image.jpg",
+      "price": 750,
+      "discount": 10,
+      "link": "/womens/bags/charm-handbag"
+    }
+  ],
+  "hotSummerSale": {
+    "image": "./assets/images/hot-summer-sale-image.jpg",
+    "link": "/hot-summer-sale"
+  },
+  "newArrivals": [
+    {
+      "slug": "new-arrival-1",
+      "name": "Summer 2023 Collection",
+      "image": "./assets/images/new-arrival-1-image.jpg",
+      "link": "/summer-2023-collection"
+    },
+    {
+      "slug": "new-arrival-2",
+      "name": "Spring 2023 Collection",
+      "image": "./assets/images/new-arrival-2-image.jpg",
+      "link": "/spring-2023-collection"
+    }
+  ],
+  "sponsored": {
+    "image": "./assets/images/sponsored-image.jpg",
+    "link": "/sponsored-products",
+    "discount": 50
+  }
+}
